@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "FunctionalTestSuite.dtd">
+<suite name="FunctionalTestSuite">
+	
+	<test name="Functional Testing">
+		
+		<classes>
+			
+			<class name = "BatchTesting.PaymentTest" />
+			
+			<class name = "BatchTesting.ProductPageTest"/>
+
+			
+		</classes>
+		
+	</test>
+
+	
+</suite>

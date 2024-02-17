@@ -1,0 +1,5 @@
+<!ELEMENT suite (suite-files)>
+<!ATTLIST suite name NMTOKEN #REQUIRED>
+<!ELEMENT suite-files (suite-file+)>
+<!ELEMENT suite-file EMPTY>
+<!ATTLIST suite-file path CDATA #REQUIRED>
